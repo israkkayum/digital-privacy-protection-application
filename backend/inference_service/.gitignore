@@ -1,0 +1,19 @@
+# Python env
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Secrets / env
+.env
+.env.*
+!.env.example
+
+# Local model artifacts
+models/*
+!models/.gitkeep
+*.tflite
+*.onnx
+
+# Misc
+.DS_Store
